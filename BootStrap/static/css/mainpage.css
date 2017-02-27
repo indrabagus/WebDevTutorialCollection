@@ -1,0 +1,75 @@
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+  border: 0;
+  text-align: center;
+}
+
+/*
+ * Main content
+ */
+
+.main {
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+}
+
+.main .page-title {
+    margin: 25px 0px 35 px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.main .page-title h2 {
+    margin-top: 0;
+}
+
+p.subheading {
+    color: #899aa6;
+    font-size: 25px;
+    line-height: 1.2;
+}
+
+
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+
+.placeholder img {
+  display: inline-block;
+  border-radius: 10%;
+}

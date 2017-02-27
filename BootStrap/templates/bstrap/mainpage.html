@@ -2,6 +2,7 @@
 {% load staticfiles %}
 
 {% block head %}
+        <link rel="stylesheet" href="{% static 'css/mainpage.css' %}">
 {% endblock %}
 
 {% block navbar %}
@@ -10,39 +11,100 @@
 </ul>
 {% endblock %}
 
-{% block content %} 
-    <div class='row'>
-        <div class='jumbotron'>
-            <h2>Web Development Tutorial Project</h2>
-            <sp>Kumpulan tutorial teknologi development web</sp>
+{% block content %}
+<div class="main">
+    <div class="page-title">
+        <h2>Web Development Tutorial Project</h2>
+        <p class="subheading">
+            Collection of Web Development
+        </p>
+    </div>
+
+    <div class="row">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    Bootstrap Collection Tutorial
+                </h3>
+            </div>
+            <div class="panel-body">
+                <div class="row placeholder">
+                    <a href="#">
+                        <div class="col-xs-6 col-sm-3 placeholder">
+                            <img src="static/img/toolbox.png" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail">
+                            <h4>Bootstrap Grid System</h4>
+                            <p class="text-muted">discuss the Bootstrap Grid System</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="col-xs-6 col-sm-3 placeholder">
+                            <img src="static/img/user.png" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail">
+                            <h4>Bootstrap Typography</h4>
+                            <p class="text-muted">
+                                Using typography feature of Bootstrap you can create headings, paragraphs, lists and other inline elements
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="col-xs-6 col-sm-3 placeholder">
+                            <img src="static/img/user.png" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail">
+                            <h4>Bootstrap Typography</h4>
+                            <p class="text-muted">
+                                Using typography feature of Bootstrap you can create headings, paragraphs, lists and other inline elements
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="col-xs-6 col-sm-3 placeholder">
+                            <img src="static/img/user.png" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail">
+                            <h4>Bootstrap Typography</h4>
+                            <p class="text-muted">
+                                Using typography feature of Bootstrap you can create headings, paragraphs, lists and other inline elements
+                            </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="row placeholder">
+                    <a href="#">
+                        <div class="col-xs-6 col-sm-3 placeholder">
+                            <img src="static/img/toolbox.png" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail">
+                            <h4>Bootstrap Grid System</h4>
+                            <p class="text-muted">discuss the Bootstrap Grid System</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="col-xs-6 col-sm-3 placeholder">
+                            <img src="static/img/user.png" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail">
+                            <h4>Bootstrap Typography</h4>
+                            <p class="text-muted">
+                                Using typography feature of Bootstrap you can create headings, paragraphs, lists and other inline elements
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="col-xs-6 col-sm-3 placeholder">
+                            <img src="static/img/user.png" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail">
+                            <h4>Bootstrap Typography</h4>
+                            <p class="text-muted">
+                                Using typography feature of Bootstrap you can create headings, paragraphs, lists and other inline elements
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="col-xs-6 col-sm-3 placeholder">
+                            <img src="static/img/user.png" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail">
+                            <h4>Bootstrap Typography</h4>
+                            <p class="text-muted">
+                                Using typography feature of Bootstrap you can create headings, paragraphs, lists and other inline elements
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                                
+            </div>
         </div>
     </div>
-    <div class='row'>
-        <div class='col-md-3'>
-            <h2>Bagian 1</h2>
-        </div>
-        <div class='col-md-3'>
-            <h2>Bagian 2</h2>
-        </div>
-        <div class='col-md-3'>
-            <h2>Bagian 3</h2>
-        </div>
-        <div class='col-md-3'>
-            <h2>Bagian 4</h2>
-        </div>                        
-    </div>
-    <div class='row'>
-        <div class='col-md-3'>
-            <h2>Bagian 1</h2>
-        </div>
-        <div class='col-md-3'>
-            <h2>Bagian 2</h2>
-        </div>
-        <div class='col-md-3'>
-            <h2>Bagian 3</h2>
-        </div>
-        <div class='col-md-3'>
-            <h2>Bagian 4</h2>
-        </div>                        
-    </div>    
+
+</div>
 {% endblock %}
