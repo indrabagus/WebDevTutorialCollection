@@ -7,14 +7,14 @@ class CardMember(models.Model):
                                      null=False)
     nama = models.CharField(max_length=255)
     alamat = models.CharField(max_length=255)
-    email = models.EmailField(blank=False, null=True)
+    email = models.EmailField(blank=False, null=False)
     tempat_lahir = models.CharField(max_length=255)    
-    tgl_lahir = models.DateField()
+    tgl_lahir = models.DateField(null=True)
     phone = models.CharField(max_length=255,blank=True, null=True)
     # photo = models.ImageField()
 
     def __str__(self):
-        return str(self.num_id) + " -- " +self.nama
+        return str(self.identifier) + " -- " +self.nama
 
     class Meta:
         verbose_name = "Smart Card Member Profile"
